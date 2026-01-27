@@ -1,14 +1,20 @@
 Competitive Balance Assessment (EPL vs La Liga) — Season 2023/24
+
 Executive Summary: Competitive Balance Assessment (2023/24)
+
 The One-Sentence Answer
 The data confirms that the Premier League is structurally more competitive than La Liga, driven by a significantly higher performance floor among mid-tier clubs and a broader distribution of offensive quality.
+
 Key Findings
+
 Structural Parity vs. Tactical Closeness
 While La Liga produces a higher proportion of close one-goal matches (68% vs. 55%), this tactical compactness does not translate into season-long balance. The Premier League exhibits superior structural competitiveness, reflected in slightly lower points dispersion and a more equitable distribution of performance across the league table.
+
 Mid-Table Resilience (Primary Differentiator)
 The Premier League’s “middle class” (positions 4–15) is 14 points tighter than La Liga’s. This mid-tier strength is most evident in away fixtures, where the EPL maintains a 100% higher performance floor (6 points vs. 3 points), significantly reducing the insulation typically enjoyed by top-tier teams.
 Offensive Depth as a Technical Driver
 Shot-based analysis reveals that the Premier League contains a broader cluster of teams capable of sustained chance creation and conversion. In contrast, La Liga exhibits a larger concentration of offensively struggling teams, contributing to a clearer technical and points-based separation between the top and bottom of the table.
+
 Strategic Implications
 Broadcast Value
 High structural parity and mid-table compression increase sustained uncertainty across the season. This unpredictability—where a wider range of teams can challenge elite clubs—supports stronger global viewership and premium broadcast valuations.
@@ -32,6 +38,7 @@ The stakeholder believes the Premier League is more competitive than La Liga, bu
 
 Business Problem
 The stakeholder seeks a data-supported explanation for why the Premier League is widely considered more competitive than La Liga. The objective is not to determine which team is best or which team wins the league, but rather to assess whether the data supports this perception and in what measurable ways.
+
 Core Business Question
 Using match-level performance and efficiency data from the 2023/24 season, what indicators suggest that the Premier League is more competitive than La Liga?
 Supporting Analytical Questions
@@ -46,6 +53,7 @@ Do metrics such as PPDA indicate higher pressing intensity? Are teams consistent
 Predictability
 Are match outcomes harder to predict based on dominance metrics?
 Competitiveness is treated as a multi-dimensional concept, encompassing match-level tightness, season-long point distribution, and concentration of dominance under both home and away conditions.
+
 Why This Matters to the Stakeholder
 If the Premier League demonstrates smaller average goal differences, tighter efficiency margins, and less concentration of dominance, this supports strategic decisions related to:
 Broadcast and media rights valuation
