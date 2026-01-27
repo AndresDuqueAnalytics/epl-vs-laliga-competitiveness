@@ -15,6 +15,25 @@ This project evaluates league competitiveness from an investment and operations 
 - Power BI for visualization
 - Excel for initial cleaning and schema alignment
 
+  ## Repository Structure
+- /dashboard  
+  Power BI dashboard (.pbix) and exported PDF preview
+
+- /sql  
+  SQL scripts used for validation, table creation, and summary outputs (SQLite)
+
+- /data  
+  Cleaned datasets used for analysis (CSV)
+
+- /docs  
+  Case study documentation (Ask/Prepare/Process/Analyze/Share/Act)
+
+## Where to Start
+1. Open `/dashboard` to view the PDF dashboard preview.
+2. Read `/docs` for the full case study narrative.
+3. Review `/sql` to see how the tables and summary outputs were produced.
+
+
 ## Key Insight
 While La Liga produces closer matches on a per-game basis, the Premier League exhibits stronger **structural competitiveness**, driven by mid-tier resilience and more evenly distributed away performance.
 
