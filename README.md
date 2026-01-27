@@ -40,10 +40,15 @@ This project evaluates league competitiveness from an investment and operations 
 - /docs  
   Case study documentation (Ask/Prepare/Process/Analyze/Share/Act)
 
-## Where to Start
-1. Open `/dashboard` to view the PDF dashboard preview.
-2. Read `/docs` for the full case study narrative.
-3. Review `/sql` to see how the tables and summary outputs were produced.
+## How to Review This Project
+1. Start with `/docs/Executive_Report.pdf.`
+2. Review `/dashboard/` for visuals
+3. Inspect `/sql/` for transformation logic
+4. Read `/docs/Technical_Appendix.md` for methodology
+
+## Notes on Data
+Raw CSVs are not included to respect dataset licensing.  
+All data sources are public (Kaggle) and documented in `/data/README.md`.
 
 
 ## Key Insight
@@ -54,3 +59,7 @@ While La Liga produces closer matches on a per-game basis, the Premier League ex
 - 📄 **Full Case Study Report:** `/docs/Case_Study_Report.md`
 - 🛠 **Technical Appendix:** `/docs/Technical_Appendix.md`
 - 🧮 **SQL Logic:** `/sql/epl_laliga_competitiveness_analysis.sql`
+
+## Author
+Andres Felipe Duque
+Data Analyst -  Portfolio Project
