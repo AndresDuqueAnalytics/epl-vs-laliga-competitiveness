@@ -1,5 +1,17 @@
 # EPL vs La Liga — Competitive Balance Analysis (2023/24)
 
+## Overview
+This project analyzes the competitive balance between the Premier League and La Liga during the 2023/24 season.  
+The goal is to evaluate whether the Premier League is more competitive **structurally**, not just perceptually.
+
+The analysis focuses on:
+- Points distribution
+- Mid-table strength
+- Away-match performance
+- Offensive depth and efficiency
+
+This case study was developed as a portfolio project using real match-level data and industry-style analytical workflows.
+
 ## Business Question
 Is the Premier League truly more competitive than La Liga, and if so, in what measurable, structural ways?
 
