@@ -1,0 +1,85 @@
+-- ======================================================
+-- FACT TABLE: Match-level performance data (EPL & La Liga)
+-- ======================================================
+
+CREATE TABLE Fact_MatchTeam_23_24(
+  Season TEXT,
+  League TEXT,
+  MatchDate TEXT,
+  HomeTeam TEXT,
+  AwayTeam TEXT,
+  FullTimeHomeGoals INT,
+  FullTimeAwayGoals INT,
+  FullTimeResult TEXT,
+  HalfTimeHomeGoals,
+  HalfTimeAwayGoals,
+  HalfTimeResult TEXT,
+  HomeShots INT,
+  AwayShots INT,
+  HomeShotsOnTarget INT,
+  AwayShotsOnTarget INT,
+  HomeCorners,
+  AwayCorners,
+  HomeFouls,
+  AwayFouls,
+  HomeYellowCards,
+  AwayYellowCards,
+  HomeRedCards,
+  AwayRedCards,
+  GoalDifference INT,
+  MatchResultNumeric INT,
+  TotalShots INT,
+  ShotEfficiency_Home INT,
+  ShotEfficiency_Away INT,
+  CardSeverity_Home INT,
+  CardSeverity_Away INT,
+  home_xg,
+  away_xg,
+  home_deep,
+  away_deep,
+  home_ppda,
+  away_ppda,
+  home_xpts,
+  away_xpts)
+
+-- ======================================================
+-- SUMMARY TABLE: Final standings (TotalPoints + Position)
+-- ======================================================
+
+CREATE TABLE Standings_23_24(
+  League TEXT,
+  Team TEXT,
+  TotalPoints,
+  LeaguePosition)
+
+-- ======================================================
+-- SUMMARY TABLE: Away performance (AwayPoints by team)
+-- ======================================================
+
+CREATE TABLE AwayPoints_23_24(
+  League TEXT,
+  Team TEXT,
+  AwayPoints)
+
+-- ======================================================
+-- SUMMARY TABLE: Tier-based competitiveness analysis
+-- ======================================================
+
+CREATE TABLE Tier_Performance_Summary_23_24(
+  League TEXT,
+  Tier,
+  Teams,
+  AvgTotalPoints,
+  AvgAwayPoints,
+  AvgAbsGoalDiff,
+  CloseMatchRate,
+  AvgShotEfficiency)
+
+-- ======================================================
+-- SUMMARY TABLE: Tactical closeness vs structural balance
+-- ======================================================
+
+CREATE TABLE Visual3_TacticalVsStructural_23_24(
+  League TEXT,
+  CloseMatchRate_0_1,
+  PointsStdDev)
