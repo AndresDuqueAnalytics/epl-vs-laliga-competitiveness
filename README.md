@@ -3,6 +3,9 @@
 ## Business Question
 Is the Premier League truly more competitive than La Liga, and if so, in what measurable, structural ways?
 
+## Key Insight (TL;DR)
+The Premier League is structurally more competitive than La Liga in 2023/24, driven by stronger mid-table resistance and a higher away-performance floor, even though La Liga produces tighter individual match scorelines.
+
 ## Context
 This project evaluates league competitiveness from an investment and operations perspective, focusing on competitive balance, mid-table resistance, and performance distribution rather than title outcomes or star players.
 
