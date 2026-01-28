@@ -10,7 +10,7 @@ The analysis focuses on:
 - Away-match performance
 - Offensive depth and efficiency
 
-This case study was developed as a portfolio project using real match-level data and industry-style analytical workflows.
+This case study was developed as a portfolio project using real match-level data and standard analytical workflows used in business and BI contexts
 
 ## Business Question
 Is the Premier League truly more competitive than La Liga, and if so, in what measurable, structural ways?
@@ -50,15 +50,18 @@ This project evaluates league competitiveness from an investment and operations 
 Raw CSVs are not included to respect dataset licensing.  
 All data sources are public (Kaggle) and documented in `/data/README.md`.
 
-
-## Key Insight
-While La Liga produces closer matches on a per-game basis, the Premier League exhibits stronger **structural competitiveness**, driven by mid-tier resilience and more evenly distributed away performance.
-
 ## Deliverables
 - 📊 **Power BI Dashboard:** `/dashboard/EPL_LaLiga_Dashboard.pdf`
 - 📄 **Full Case Study Report:** `/docs/Case_Study_Report.md`
 - 🛠 **Technical Appendix:** `/docs/Technical_Appendix.md`
 - 🧮 **SQL Logic:** `/sql/epl_laliga_competitiveness_analysis.sql`
+
+### Supporting Analysis — EPL Exploratory Dashboard
+
+In addition to the comparative analysis, I built an exploratory Power BI dashboard using the EPL match-level dataset. The purpose of this dashboard was to understand team performance distributions, efficiency patterns, and league-wide variance before conducting cross-league comparisons.
+
+This dashboard is included as supporting analysis and is not intended as a standalone case study.
+
 
 ## Author
 Andres Felipe Duque
