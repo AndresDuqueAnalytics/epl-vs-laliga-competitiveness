@@ -67,26 +67,27 @@ The analysis uses publicly available datasets from Kaggle:
 Premier League: match-level performance data
 La Liga: match-level performance and advanced metrics data
 Both datasets contain structured observations suitable for analytical and educational use. The analysis is limited to the 2023/24 season to ensure comparability.
+
 Data Organization
 Each dataset was provided as a CSV file with one row per match. While the datasets shared a similar analytical grain, they differed in column naming conventions, metric availability, schema structure, and inclusion of advanced metrics.
 To prepare the data for comparison, both datasets were reorganized into a unified schema using the Premier League structure as the reference model.
+
 Metric Availability and Limitations
 La Liga includes advanced metrics such as expected goals (xG), expected points (xPTS), and PPDA, while the Premier League dataset does not. Conversely, the Premier League dataset includes disciplinary and halftime metrics not present in La Liga.
 These differences were preserved rather than imputed to ensure transparency, analytical integrity, and defensible comparisons. Only metrics available in both datasets were used for direct league-level comparison.
 Data Credibility and Bias Considerations
+
 Both datasets were assessed using ROCCC criteria and reviewed for potential sources of bias, including differences in data collection methodology and metric definitions. All limitations were documented and accounted for in the analysis design.
 
-
-
-
-
-
 PROCESS STAGE — Data Cleaning & Transformation
+
 The objective of the process stage was to transform raw datasets into a clean, consistent, and analysis-ready structure suitable for cross-league comparison.
+
 Tools Used
 Microsoft Excel: initial inspection, filtering, schema alignment, and calculated fields
 SQLite: integrity checks, validation, and aggregation
 Power BI Desktop: data modeling, DAX calculations, and visualization
+
 Key Cleaning and Transformation Steps
 Filtered both datasets to the 2023/24 season
 Standardized column names and ordering
@@ -96,7 +97,10 @@ Validated data types and logical consistency
 Combined datasets into a unified fact table using UNION ALL
 All steps were documented to ensure reproducibility and transparency.
 
+Early exploratory analysis included an interactive Power BI dashboard of EPL performance metrics, which informed subsequent comparative indicators used in the league-level analysis.
+
 ANALYZE STAGE — Competitiveness Assessment
+
 The analysis evaluated competitiveness across multiple dimensions, focusing on distribution, variance, and resistance rather than averages or elite dominance.
 Match Outcome Tightness
 La Liga exhibited lower average absolute goal difference and a higher proportion of close matches, indicating tighter match-level outcomes.
@@ -110,11 +114,13 @@ Key Interpretation
 Match-level closeness does not necessarily equate to season-level competitiveness. La Liga’s tactical compactness coexists with structural separation, while the Premier League exhibits sustained uncertainty driven by depth and resilience across the league table.
 
 SHARE STAGE — Communicating Insights
+
 Insights were communicated through an interactive Power BI dashboard designed for executive consumption. Visuals were selected to minimize cognitive load while clearly mapping to stakeholder questions.
 Four primary visuals were used to illustrate points distribution, away-match stress testing, tactical versus structural competitiveness, and offensive depth. Data limitations were explicitly acknowledged to maintain credibility.
 The dashboard supports strategic discussion rather than operational monitoring, enabling stakeholders to quickly understand where and why competitive differences emerge.
 
 ACT STAGE — Strategic Implications & Recommended Next Steps
+
 Broadcast & Media Strategy
 The Premier League’s structural balance supports higher broadcast valuations, stronger demand for non-marquee fixtures, and sustained global engagement.
 Club Ownership & Capital Allocation
